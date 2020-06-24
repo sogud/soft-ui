@@ -1,0 +1,12 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "loose": false,
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
